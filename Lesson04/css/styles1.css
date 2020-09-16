@@ -53,6 +53,7 @@ h1, h2 {
 --------------------------------------*/
 header {
     background-color: #aed9e0;
+    text-align: center;
 }
 
 /* Projects
@@ -98,6 +99,12 @@ header {
     background-color: #f6bd60;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
 /* Education
 --------------------------------------*/
 
@@ -106,4 +113,17 @@ header {
 --------------------------------------*/
 footer {
     background-color: #d8e2dc;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }

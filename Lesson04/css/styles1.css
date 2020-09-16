@@ -76,6 +76,22 @@ header {
     background: rgba(7, 59, 76, 80%);
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+    padding: 25px 0;
+
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
 /* Work experience
 --------------------------------------*/
 .work-experience {
